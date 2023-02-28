@@ -31,7 +31,7 @@ class Game:
 
         # dessiner le grp de calque
         self.group = pyscroll.PyscrollGroup(
-            map_layer=map_layer, default_layer=3)
+            map_layer=map_layer, default_layer=4)
         self.group.add(self.player)
 
     def handle_input(self):
